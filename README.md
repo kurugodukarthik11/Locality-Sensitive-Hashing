@@ -23,5 +23,6 @@ To Implement:
 ● Partitioned X based on these hashing bins.
 
 ● Implemented a nearest neighbour search for any arbitrary point q ∈ {0,1}d by choosing a hash function h
+   
   from H uniformly at random, and returning the nearest neighbor of q from the bin it is mapped to.
 
