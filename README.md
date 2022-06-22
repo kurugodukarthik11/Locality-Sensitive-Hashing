@@ -16,13 +16,12 @@ queries, i.e., to find all the neighbours of q that are within a pre-specified d
 
 To Implement:
 
-● Generate the set X ⊂ {0,1}d with n points, i.e., X consists of n binary vectors in d-dimensions.
+● Generated the set X ⊂ {0,1}d with n points, i.e., X consists of n binary vectors in d-dimensions.
 
-● Determine a suitable family of hash functions H.
+● Introduced a suitable family of hash functions H.
 
-● Partition X based on these hashing bins.
+● Partitioned X based on these hashing bins.
 
-● Implement a nearest neighbour search for any arbitrary point q ∈ {0,1}d by choosing a hash function h
+● Implemented a nearest neighbour search for any arbitrary point q ∈ {0,1}d by choosing a hash function h
   from H uniformly at random, and returning the nearest neighbor of q from the bin it is mapped to.
 
-● If X ⊂ Rd instead of binary vectors, what family of hash functions would you choose?
